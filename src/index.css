@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+.App {
+  width: 60%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.board {
+  margin-top: 3rem;
+}
+.squareBox {
+  border: 1px solid;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.board-row {
+  display: flex;
+}
